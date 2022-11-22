@@ -4,7 +4,7 @@ string titoloDelLibro = "Clean Code";
 
 string autoreDelLibro = "Robert C. Martin";
 long isbn = 9780132350884;
-long isbn2 = 978 - 0132350884;
+long isbn2 = 9780132350884;
 
 int numeroPagine = 431;
 int pesoLibro = 800;
@@ -30,7 +30,7 @@ bool copertinaFlessibile = true;
 
 
 
-Console.WriteLine("Il libro di oggi : " + titoloDelLibro + "di" + autoreDelLibro + "\n"
+Console.WriteLine("Il libro di oggi : " + titoloDelLibro + " di " + autoreDelLibro + "\n"
     + "Informazioni generiche : " + "\n"
     + "ISBN 10 : " + isbn + "\n"
     + "ISBN 13 : " + isbn2 + "\n" 
